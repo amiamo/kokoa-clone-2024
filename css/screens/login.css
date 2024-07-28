@@ -1,0 +1,74 @@
+
+.welcome-header {
+    margin-top: 80px;
+}
+
+.welcome-header__title {
+    font-family: "Roboto", sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 10px 0;
+}
+
+.welcome-header__text {
+    font-size: 1rem;
+    color: #666;
+    margin: 20px 60px;
+    line-height: 1.5;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 70px;
+}
+
+#login-form input:not([type="submit"]) {
+    border-bottom: 1px solid #ccc;
+    transition: border-color .3s ease-in-out;
+}
+
+#login-form input:focus {
+    border-bottom: 1px solid var(--yellow);
+}
+
+#login-form input::placeholder {
+    color: rgba(0, 0, 0, 0.3);
+}
+
+form input[type="text"],
+form input[type="password"] {
+    width: 80%;
+    padding: 10px;
+    margin: 20px 0;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    font-size: 16px;
+    transition: border-color .3s ease-in-out;
+}
+
+form input[type="submit"] {
+    width: 80%;
+    padding: 10px;
+    margin: 10px;
+    border: none !important;
+    border-radius: 5px;
+    background-color: var(--yellow);
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+
+
+form a {
+    color: #666;
+    text-decoration: none;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+form a:hover {
+    text-decoration: underline;
+}
