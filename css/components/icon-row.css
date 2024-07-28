@@ -1,7 +1,7 @@
 .icons-row {
     display: flex;
     justify-content: space-between;
-    padding-bottom: var(--horizontal-space);
+    padding: 10px 10px;
 }
 
 .icons-row__icon {
