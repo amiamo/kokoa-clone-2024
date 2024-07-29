@@ -29,39 +29,44 @@
         <h1 class="alt-header__title">Amo</h1>
       </div>
       <div class="alt-header__column">
-        <i class="fa-solid fa-search fa-lg"></i>
-      </div>
-      <div class="alt-header__column">
-        <i class="fa-solid fa-bars fa-lg"></i>
+        <span><i class="fa-solid fa-search fa-lg"></i></span>
+        <span><i class="fa-solid fa-bars fa-lg"></i></span>
       </div>
     </header>
-    <main class="main-screen"></main>
-    <nav class="nav">
-      <ul class="nav__list">
-        <li class="nav__button">
-          <a class="nav__link" href="friends.html">
-            <i class="fa-regular fa-user fa-2x"></i>
-          </a>
-        </li>
-        <li class="nav__button">
-          <a class="nav__link" href="chats.html">
-            <span class="nav__noti badge">1</span>
-            <i class="fa-regular fa-comment fa-2x"></i>
-          </a>
-        </li>
-        <li class="nav__button">
-          <a class="nav__link" href="find.html">
-            <i class="fa-solid fa-magnifying-glass fa-2x"></i>
-          </a>
-        </li>
-        <li class="nav__button">
-          <a class="nav__link" href="more.html">
-            <span class="nav__alram"></span>
-            <i class="fa-solid fa-ellipsis fa-2x"></i>
-          </a>
-        </li>
-      </ul>
-    </nav>
+    <main class="main-screen main-chat">
+      <div class="chat__timestamp">Sunday, July 28, 2024</div>
+      <div class="message-row">
+        <img src="img/yebit.jpg" />
+        <div class="message-row__content">
+          <span class="message__author">Yebit</span>
+          <div class="message__info">
+            <span class="message__bubble">Hello!</span>
+            <span class="message__time">17:23</span>
+          </div>
+        </div>
+      </div>
+      <div class="message-row message-row--own">
+        <div class="message-row__content">
+          <div class="message__info">
+            <span class="message__bubble">Hi! How are you, today?</span>
+            <span class="message__time">17:23</span>
+          </div>
+        </div>
+      </div>
+    </main>
+    <form class="reply">
+      <div class="reply__column">
+        <i class="fa-regular fa-plus-square fa-lg"></i>
+      </div>
+      <div class="reply__column">
+        <input type="text" placeholder="Write a message..." />
+        <i class="fa-regular fa-smile-wink fa-lg"></i>
+        <button>
+          <i class="fa-solid fa-arrow-up"></i>
+        </button>
+      </div>
+    </form>
+
     <script
       src="https://kit.fontawesome.com/bcfdbd1d7d.js"
       crossorigin="anonymous"
