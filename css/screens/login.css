@@ -1,6 +1,6 @@
-
 .welcome-header {
     margin-top: 80px;
+    text-align: center;
 }
 
 .welcome-header__title {
@@ -37,8 +37,8 @@ form {
     color: rgba(0, 0, 0, 0.3);
 }
 
-form input[type="text"],
-form input[type="password"] {
+#login-form input[type="text"],
+#login-form input[type="password"] {
     width: 80%;
     padding: 10px;
     margin: 20px 0;
@@ -48,7 +48,7 @@ form input[type="password"] {
     transition: border-color .3s ease-in-out;
 }
 
-form input[type="submit"] {
+#login-form input[type="submit"] {
     width: 80%;
     padding: 10px;
     margin: 10px;
@@ -59,8 +59,6 @@ form input[type="submit"] {
     font-weight: 600;
     cursor: pointer;
 }
-
-
 
 form a {
     color: var(--grey);
